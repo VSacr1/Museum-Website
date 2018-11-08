@@ -1,0 +1,184 @@
+{
+
+	"pageTextData": [{
+
+			"title": "Art Nouveau Vase's from around the globe",
+
+			"subTitle": "Student Number 178502",
+
+			"description": "The theme that I have gone for is Art Nouveau Vase's.I have selected four different shaped objects and recreated them using 3D modelling. I have created my own exhibition space for these vases."
+
+		},
+
+		{
+
+			"title": "China Vase",
+
+			"subTitle": "Made in 18th century",
+
+			"description": "Porcelain covered with flambé glaze"
+
+		},
+
+		{
+
+			"title": "Favrile Vase",
+
+			"subTitle": "Designed around 1895",
+
+			"description": "Its name probably comes from 'fabrile' an 'old English' word for 'handmade', indicating that the range was made by skilled glass workers."
+
+		},
+
+		{
+
+			"title": "Fennia",
+
+			"subTitle": "Designed 1900 - 1902",
+
+			"description": "Cast white earthenware vase of six-sided bottle shape, printed and hand-painted with geometric plant-like forms in stylised panels in green and reddish brown."
+
+
+		},
+		{
+
+			"title": "Clutha Vase",
+
+			"subTitle": "Made in Glasgow",
+
+			"description": "'Clutha' is the ancient, Romans name for a river god and the River Cycle. The vase was made by James Couper & Sons in Glasgow, which stands on the Clyde."
+
+		},
+		{
+
+			"title": "China Vase",
+
+			"subTitle": "Made in China",
+
+			"description": "This model was made using 3DS max and the texture was taken from an image of the model. Using the camera buttons, animation buttons and Render I can change the position, add animation and remove the lighting and poly of the model.",
+
+			"WebDesign": "The design of this website was using buttons, rows and columns to create a box layout. The model is bigger as it is the center piece of the museum. I wanted to keep the layout similar to the home page without copying it."
+		},
+		{
+
+			"title": "Favrile Vase",
+
+			"subTitle": "Made in Long Island(New York)",
+
+			"description": "This model was made using 3DS max and the texture was taken from an image of the model. Using the camera buttons, animation buttons and Render I can change the position, add animation and remove the lighting and poly of the model.",
+
+			"WebDesign": "The design of this website was using buttons, rows and columns to create a box layout. The model is bigger as it is the center piece of the museum. I wanted to keep the layout similar to the home page without copying it."
+		},
+		{
+
+			"title": "Fennia",
+
+			"subTitle": "Made in Helsinki",
+
+			"description": "This model was made using 3DS max and the texture was taken from an image of the model. Using the camera buttons, animation buttons and Render I can change the position, add animation and remove the lighting and poly of the model.",
+
+			"WebDesign": "The design of this website was using buttons, rows and columns to create a box layout. The model is bigger as it is the center piece of the museum. I wanted to keep the layout similar to the home page without copying it."
+
+		},
+		{
+
+			"title": "Clutha Vase",
+
+			"subTitle": "Made in Glasgow",
+
+			"description": "This model was made using 3DS max and the texture was taken from an image of the model. Using the camera buttons, animation buttons and Render I can change the position, add animation and remove the lighting and poly of the model.",
+
+			"WebDesign": "The design of this website was using buttons, rows and columns to create a box layout. The model is bigger as it is the center piece of the museum. I wanted to keep the layout similar to the home page without copying it."
+		},
+		{
+
+			"title": "Gallery",
+
+			"subTitle": "3DS max images",
+
+			"description": "Filled with placeholder text"
+
+		},
+		{
+
+			"title": "Camera",
+
+			"subTitle": "3DS max images",
+
+			"description": "Filled with placeholder text"
+
+		},
+		{
+
+			"title": "Information(China Vase)",
+
+			"subTitle": "Product Information",
+
+			"date": "Date: 18th Century",
+
+			"artist": "Artist/Maker: Unknown",
+
+			"material": "Material and Technique: Porcelain, covered with flambé glaze",
+
+			"dimensions": "Dimensions: Height: 31.2cm, Diameter: 20.3cm",
+
+			"museum": "The find out more is a link to the Victoria and Albert Musuem Website where I got specifications for the models"
+
+		},
+		{
+
+			"title": "Information(Favrile Vase)",
+
+			"subTitle": "Product Information",
+
+			"date": "Date: made 1895",
+
+			"artist": "Artist/Maker: Tiffany, Louis Comfort, born 1848 - died 1933",
+
+			"material": "Material and Technique: Glass with applied and marvered colours, combed",
+
+			"dimensions": "Dimensions: Height: 31.0cm",
+
+			"museum": "The find out more is a link to the Victoria and Albert Musuem Website  where I got specifications for the models"
+
+		},
+		{
+
+			"title": "Information (Fennia Vase)",
+
+			"subTitle": "Product Information",
+
+			"date": "Date: 18th Century",
+
+			"artist": "Artist/Maker: Unknown",
+
+			"material": "Material and Technique: Porcelain, covered with flambé glaze",
+
+			"dimensions": "Dimensions: Height: 31.2cm, Diameter: 20.3cm",
+
+			"museum": "The find out more is a link to the Victoria and Albert Musuem Website  where I got specifications for the models"
+
+		},
+		{
+
+			"title": "Information (Clutha Vase)",
+
+			"subTitle": "Product Information",
+
+			"date": "Date: 1900",
+
+			"artist": "Artist/Maker: Dresser, Christoper, born 1834 - died 1904 (designer)",
+
+			"material": "Blown coloured glass",
+
+			"dimensions": "Dimensions: Height: 46.7cm, Diameter: 19.8cm",
+
+			"museum": "The find out more is a link to the Victoria and Albert Musuem Website where I got specifications for the models"
+
+		}
+
+
+
+	]
+
+}

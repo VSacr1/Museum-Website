@@ -1,0 +1,1075 @@
+@media (min-width: 576px) {};
+@media (min-width: 768px) {};
+@media (min-width: 992px) {};
+@media (min-width: 1200px) {};
+
+@font-face {
+    font-family: cocaColaFont;
+    src: url(fonts/LOKICOLA.TTF);
+};
+
+@font-face {
+    font-family: cokeFont; 
+    src: url(fonts/cocacola.ttf);
+};
+
+    :root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+body {
+    background-color: rgb(167, 167, 167); 
+}
+.main_contents {
+    margin-top: 10px;
+    margin-bottom: 200px; 
+    margin-left: 30px; 
+    margin-right: 30px;
+}
+
+.buttons {
+    float: right;
+    margin: 1%;
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top:10px; 
+    margin-bottom: 20px; 
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+
+h1, h2, h3, h5, h6 {
+    font-family: Gill Sans, 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; 
+    font-size: 40px; 
+    margin: 0px; 
+    line-height: 1.2; 
+    margin-left: 10px; 
+}
+
+h4 {
+    font-family: Gill Sans, 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; 
+    font-size: 20px; 
+    margin: 0px; 
+    line-height: 1.2; 
+    margin-left: 10px; 
+}
+
+.col-sm-4
+{
+    stroke: #000000; 
+    border-color: #000000; 
+    
+    margin-top: 0px;
+    margin-left: 5px; 
+    margin-right: 5px; 
+    margin-bottom: 5px; 
+
+    
+}
+
+.col-sm-3
+{
+    margin-top: 10px;
+    margin-left: 20px; 
+    margin-right: 10px; 
+    margin-bottom: 3px; 
+}
+
+
+
+
+#main_text {
+    float: left; 
+    margin: 5%;
+    width: 90%;
+    display: block; 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 0px;
+    border-color: #000000;
+}
+#main_text h2 {
+    color: crimson;
+    font-size: 30px;
+}
+
+#main_text h3 {
+    color: darkcyan;
+    font-size:22px;
+}
+
+#main_text p {
+    font-size: 15px;
+}
+
+#FenniaVase {
+    float: left; 
+    margin: 5%;
+    width: 90%;
+    display: block; 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 0px;
+    border-color: #000000;
+}
+#FenniaVase h2 {
+    color: crimson;
+    font-size: 30px;
+}
+
+#FenniaVase h3 {
+    color: darkcyan;
+    font-size:22px;
+}
+
+#FenniaVase p {
+    font-size: 15px;
+}
+
+#CluthaVase {
+    float: left; 
+    margin: 5%;
+    width: 90%;
+    display: block; 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 0px;
+    border-color: #000000;
+}
+#CluthaVase h2 {
+    color: crimson;
+    font-size: 30px;
+}
+
+#CluthaVase h3 {
+    color: darkcyan;
+    font-size:22px;
+}
+
+#CluthaVase p {
+    font-size: 15px;
+}
+
+
+#FavrileVase {
+    float: left; 
+    margin: 5%;
+    width: 90%;
+    display: block; 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 0px;
+    border-color: #000000;
+}
+#FavrileVase h2 {
+    color: crimson;
+    font-size: 30px;
+}
+
+#FavrileVase h3 {
+    color: darkcyan;
+    font-size:22px;
+}
+
+#FavrileVase p {
+    font-size: 15px;
+}
+
+
+#ChinaVase {
+    float: left; 
+    margin: 5%;
+    width: 90%;
+    display: block; 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 0px;
+    border-color: #000000;
+}
+
+#ChinaVase h2 {
+    color: crimson;
+    font-size: 30px;
+}
+
+#ChinaVase h3 {
+    color: darkcyan;
+    font-size:22px;
+}
+
+#ChinaVase p {
+    font-size: 15px;
+}
+
+
+ .Model_buttons .card {
+    border: 1px solid rgba(0,0,0,.125);
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    float: right; 
+}
+
+.logo {
+    margin-top: 3px; 
+    margin-left: 20px
+}
+
+.logo h1 {
+    font-family: Gill Sans, 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; 
+    font-size: 30px; 
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: -15px; 
+    float: center; 
+    padding-top: 0px; 
+    padding-left: 0px; 
+    padding-right: 2px; 
+}
+.logo h2 
+{
+    font-family: Gill Sans, 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; 
+    font-size: 50px; 
+    margin-top: -6px; 
+    margin-bottom: -15px; 
+    padding-top: 0px; 
+    padding-left: 0px; 
+    padding-right: 3px; 
+    float: center; 
+}
+.logo h3
+{
+    font-family: Gill Sans, 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; 
+    font-size: 18px; 
+    margin-top: 0px; 
+    margin-bottom: -5px; 
+    padding-top: 0px; 
+    padding-left: 0px; 
+    float:left; 
+}
+.logo p 
+{
+    font-size: 7px; 
+    margin-top: 20px; 
+    margin-bottom: 0px; 
+    padding-top: 0px; 
+    padding-left: 3x; 
+}
+
+.navbar .container {
+    min-height: 50px; 
+}
+
+.navbar_coca_cola
+{
+    background-color: #f75b5b00;
+    border-color: #00000000; 
+    border-width: 0px;
+    border-top: 40px; 
+    font-size: 18px; 
+}
+
+.navbar_coca_cola .navbar-brand
+{
+    color: rgb(245,235,235);
+}
+
+.navbar_coca_cola .navbar-brand:hover 
+{
+    color: green; 
+}
+
+.navbar_coca_cola .navbar-nav > li > a:hover,
+.navbar_coca_cola .navbar-nav > li > a:focus 
+{
+    color:green; 
+}
+
+.navbar_coca_cola .navbar-nav .nav-item {
+    margin-top: 0px;
+}
+
+.navbar_coca_cola .navbar-nav .nav-item > .active, 
+.navbar_coca_cola .navbar-nav > active > a:hover, 
+.navbar_coca_cola .navbar-nav > active > a:focus{
+    color: #760003;
+    background-color: #f3f3f3; 
+}
+
+.navbar_coca_cola .navbar-nav > li > a:hover, 
+.navbar_coca_cola .navbar-nav > li > a:focus{
+    color: green; 
+}
+
+.navbar_coca_cola .navbar-toggler
+{
+    border-color: white;
+}
+
+
+.navbar_coca_cola .navbar-toggler-icon
+{
+    background-image: url("");
+}
+
+.img-thumbnail {
+    padding: 0.25rem; 
+    margin-top: 5px; 
+    background-color: #fff; 
+    border: 1px solid #dee2e6; 
+    border-radius: 0.25rem; 
+    max-width: 100%;
+    height: auto; 
+}
+
+.gallery .img-thumbnail{
+    background-color: rgba(255,255,255,0.0);
+    padding: 0.25rem; 
+    margin: 5px; 
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem; 
+    max-width: 43%;
+    height: auto; 
+}
+
+.nav-tab .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #760003; 
+    background-color: #3399ff; 
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.nav-tab .nav-link{
+    color: white; 
+    border: 1px solid transparent; 
+    border-top-left-radius: 0.25rem; 
+    border-top-right-radius: 0.25rem; 
+}
+
+.nav-tabs .nav-link:hover{
+    color: green; 
+    border: 1px solid transparent; 
+}
+
+.camera-btn {
+    background-color: rgba(0,0,255,0.3);
+    border-color: black; 
+    border-style: solid; 
+    border-width: 0px; 
+    margin-top: 0px; 
+    padding: 0px;
+}
+
+.camera-btn>p {
+    font-size: 15px; 
+    color: red; 
+    padding-left: 0px; 
+    font-weight: 900;
+}
+
+.camera-font {
+    font-weight: 400; 
+    color: white; 
+}
+
+.camera-font:hover{
+    font-weight: 700; 
+    color: rgb(3,3,3);
+}
+
+.btn-responsive {
+    padding: 6px 10px; 
+    font-size: 90%; 
+    line-height: 1.2; 
+    white-space: normal !important; 
+}
+
+.gallery-header:hover
+{
+    color: green;
+
+}
+
+.model3D
+{
+    background-color: rgba(255,255,255,0.0);
+    padding: 5px; 
+    height: 500px
+}
+
+.mainModel3D
+{
+    background-color: rgba(rgba(255, 255, 255, 0));
+    padding: 2px; 
+    height: 700px;
+    margin-top: -50px;
+}
+
+.cardheader
+{
+    float:right;
+    margin: 5px; 
+}
+
+X3D,x3d
+{
+    border-radius: 5px; 
+    border: 0px solid rgba(255,0,0,1.0);
+    width: 100%;
+    height: 100%;
+    
+}
+
+/*SMALL DEVICES (LANDSCAPE PHONES) */
+
+@media (min-width: 576px)
+{
+body{
+    background-color:rgb(167, 167, 167); 
+}
+
+#main_3d_image {
+    background-image: url("Images/Museum/MainImage/Display.jpg");
+    background-repeat: no-repeat;
+    height: 288px; 
+}
+
+#main_text {
+    float: left; 
+    margin: 5%;
+    width: 90%;
+    display: block; 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 0px;
+    border-color: #000000;
+}
+#main_text h2 {
+    color: crimson;
+    font-size: 30px;
+}
+
+#main_text h3 {
+    color: darkcyan;
+    font-size:22px;
+}
+
+#main_text p {
+    font-size: 15px;
+}
+
+#FenniaVase {
+    float: left; 
+    margin: 5%;
+    width: 90%;
+    display: block; 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 0px;
+    border-color: #000000;
+}
+#FenniaVase h2 {
+    color: crimson;
+    font-size: 30px;
+}
+
+#FenniaVase h3 {
+    color: darkcyan;
+    font-size:22px;
+}
+
+#FenniaVase p {
+    font-size: 15px;
+}
+
+#CluthaVase {
+    float: left; 
+    margin: 5%;
+    width: 90%;
+    display: block; 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 0px;
+    border-color: #000000;
+}
+#CluthaVase h2 {
+    color: crimson;
+    font-size: 30px;
+}
+
+#CluthaVase h3 {
+    color: darkcyan;
+    font-size:22px;
+}
+
+#CluthaVase p {
+    font-size: 15px;
+}
+
+
+#FavrileVase {
+    float: left; 
+    margin: 5%;
+    width: 90%;
+    display: block; 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 0px;
+    border-color: #000000;
+}
+#FavrileVase h2 {
+    color: crimson;
+    font-size: 30px;
+}
+
+#FavrileVase h3 {
+    color: darkcyan;
+    font-size:22px;
+}
+
+#FavrileVase p {
+    font-size: 15px;
+}
+
+
+#ChinaVase {
+    float: left; 
+    margin: 5%;
+    width: 90%;
+    display: block; 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 0px;
+    border-color: #000000;
+}
+
+#ChinaVase h2 {
+    color: crimson;
+    font-size: 30px;
+}
+
+#ChinaVase h3 {
+    color: darkcyan;
+    font-size:22px;
+}
+
+#ChinaVase p {
+    font-size: 15px;
+}
+
+        .card {
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    background-color: rgb(202,181,181);
+}
+
+    .navbar_coca_cola {
+        background-color: #f75b5b00;
+        border-color: #00000000;
+        border-width: 0px;
+        border-top: 40px;
+        font-size: 18px;
+    }
+
+.footer{
+    background-color: #ffffff;
+    height: 60px;
+}
+
+.navbar-text > a {
+    font-size: 10px; 
+}
+
+.navbar-text > p {
+    color: rgb(0, 0, 0, 0);
+    font-size: 18px; 
+}
+
+.copyright {
+    padding-top: 20px;
+}
+
+.social {
+    padding-top: 7px; 
+}
+
+.model3D {
+    height: 400px;
+    width: 300px;
+
+}
+
+/* MEDIUM DEVICE (TABLET 768px and up) */
+@media (min-width: 768px)
+{
+    body {
+        background-color: rgb(167, 167, 167); 
+    }
+
+    #main_3d_image {
+        background-image: url("Images/Museum/MainImage/Display.jpg");
+        background-repeat: no-repeat;
+        height: 363px;
+    }
+
+    .card {
+        margin-top: 10px; 
+        margin-bottom:10px; 
+        background-color:rgb(218,216,148);
+    }
+
+    #main_text {
+        float: left; 
+        margin: 5%;
+        width: 90%;
+        display: block; 
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 0px;
+        border-color: #000000;
+    }
+    #main_text h2 {
+        color: crimson;
+        font-size: 30px;
+    }
+    
+    #main_text h3 {
+        color: darkcyan;
+        font-size:22px;
+    }
+    
+    #main_text p {
+        font-size: 15px;
+    }
+
+    #FenniaVase {
+        float: left; 
+        margin: 5%;
+        width: 90%;
+        display: block; 
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 0px;
+        border-color: #000000;
+    }
+    #FenniaVase h2 {
+        color: crimson;
+        font-size: 30px;
+    }
+    
+    #FenniaVase h3 {
+        color: darkcyan;
+        font-size:22px;
+    }
+    
+    #FenniaVase p {
+        font-size: 15px;
+    }
+    
+    #CluthaVase {
+        float: left; 
+        margin: 5%;
+        width: 90%;
+        display: block; 
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 0px;
+        border-color: #000000;
+    }
+    #CluthaVase h2 {
+        color: crimson;
+        font-size: 30px;
+    }
+    
+    #CluthaVase h3 {
+        color: darkcyan;
+        font-size:22px;
+    }
+    
+    #CluthaVase p {
+        font-size: 15px;
+    }
+
+    
+    #FavrileVase {
+        float: left; 
+        margin: 5%;
+        width: 90%;
+        display: block; 
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 0px;
+        border-color: #000000;
+    }
+    #FavrileVase h2 {
+        color: crimson;
+        font-size: 30px;
+    }
+    
+    #FavrileVase h3 {
+        color: darkcyan;
+        font-size:22px;
+    }
+    
+    #FavrileVase p {
+        font-size: 15px;
+    }
+
+
+    #ChinaVase {
+        float: left; 
+        margin: 5%;
+        width: 90%;
+        display: block; 
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 0px;
+        border-color: #000000;
+    }
+
+    #ChinaVase h2 {
+        color: crimson;
+        font-size: 30px;
+    }
+    
+    #ChinaVase h3 {
+        color: darkcyan;
+        font-size:22px;
+    }
+    
+    #ChinaVase p {
+        font-size: 15px;
+    }
+
+
+    /* NEED TO DO LOGO BIT FOR SMALL PHONE AND TABLET*/
+
+    .logo {
+        margin-top: 3px;
+    }
+
+    .logo h1 {
+        font-family: Gill Sans, 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; 
+        font-size: 41px; 
+        margin: 0; 
+        margin-top: 0px; 
+        margin-bottom: -15px; 
+        float: left; 
+        padding-top: 0px; 
+        padding-left: 0px; 
+        padding-right: 2px; 
+    }
+
+    .logo h2 {
+        font-family: Gill Sans, 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; 
+        font-size: 43px; 
+        margin-top: 5px; 
+        margin-bottom: -15px; 
+        padding-top: 0px; 
+        padding-left:0px; 
+        padding-right: 3px; 
+        float: left; 
+    }
+
+    .logo p 
+    {
+        font-size: 10px; 
+        margin-top: 45px; 
+        margin-bottom: 0px;
+        padding-top: 0px; 
+        padding-left: 8px; 
+    }
+
+    .navbar_coca_cola {
+        background-color: #f75b5b00;
+        border-color: #00000000;
+        border-width: 0px;
+        border-top: 40px;
+        font-size: 18px;
+    }
+
+    .footer{
+        background-color: #ffffff;
+        height: 60px; 
+    }
+
+    .navbar-text > a {
+        font-size: 10px; 
+    }
+
+    .navbar-text > p {
+        color: rgb(12,5,3);
+        font-size: 18px; 
+    }
+
+    .copyright {
+        padding-top: 20px; 
+    }
+
+    .social {
+        padding-top: 7px;
+    }
+
+    .model3d {
+        height: 380px; 
+    }
+}
+
+/*LARGE DEVICES (DESKTOPS,992PX AND UP) */
+@media (min-width: 992px) { 
+    
+    body {
+        background-color: rgb(167, 167, 167); 
+    }
+
+    #main_3d_image {
+        background-image: url("Images/Museum/MainImage/Display.jpg");
+        background-repeat: no-repeat;
+        height: 524px;
+    }
+
+    #main_text {
+        float: left; 
+        margin: 5%;
+        width: 90%;
+        display: block; 
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 0px;
+        border-color: #000000;
+    }
+    #main_text h2 {
+        color: crimson;
+        font-size: 30px;
+    }
+    
+    #main_text h3 {
+        color: darkcyan;
+        font-size:22px;
+    }
+    
+    #main_text p {
+        font-size: 15px;
+    }
+
+    #FenniaVase {
+        float: left; 
+        margin: 5%;
+        width: 90%;
+        display: block; 
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 0px;
+        border-color: #000000;
+    }
+    #FenniaVase h2 {
+        color: crimson;
+        font-size: 30px;
+    }
+    
+    #FenniaVase h3 {
+        color: darkcyan;
+        font-size:22px;
+    }
+    
+    #FenniaVase p {
+        font-size: 15px;
+    }
+    
+    #CluthaVase {
+        float: left; 
+        margin: 5%;
+        width: 90%;
+        display: block; 
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 0px;
+        border-color: #000000;
+    }
+    #CluthaVase h2 {
+        color: crimson;
+        font-size: 30px;
+    }
+    
+    #CluthaVase h3 {
+        color: darkcyan;
+        font-size:22px;
+    }
+    
+    #CluthaVase p {
+        font-size: 15px;
+    }
+
+    
+    #FavrileVase {
+        float: left; 
+        margin: 5%;
+        width: 90%;
+        display: block; 
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 0px;
+        border-color: #000000;
+    }
+    #FavrileVase h2 {
+        color: crimson;
+        font-size: 30px;
+    }
+    
+    #FavrileVase h3 {
+        color: darkcyan;
+        font-size:22px;
+    }
+    
+    #FavrileVase p {
+        font-size: 15px;
+    }
+
+
+    #ChinaVase {
+        float: left; 
+        margin: 5%;
+        width: 90%;
+        display: block; 
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 0px;
+        border-color: #000000;
+    }
+
+    #ChinaVase h2 {
+        color: crimson;
+        font-size: 30px;
+    }
+    
+    #ChinaVase h3 {
+        color: darkcyan;
+        font-size:22px;
+    }
+    
+    #ChinaVase p {
+        font-size: 15px;
+    }
+
+
+  
+
+    .card {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 60px;
+        background-color: rgb(185, 185, 178);
+    }
+
+    .logo {
+        margin-top: 7px;
+    }
+
+    .logo h1 {
+        font-family: cocaColaFont;
+        font-size: 59px;
+        margin: 0;
+        margin-top: 0px;
+        margin-bottom: -20px;
+        float: left;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .logo h2 {
+        font-family: cocaColaFont;
+        font-size: 65px;
+        margin-top: 7px;
+        margin-bottom: -25px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 6px;
+        float: left;
+    }
+
+    .logo h3 {
+        font-size: 40px;
+        margin-top: 15px;
+        margin-bottom: -5px;
+        padding-top: 0px;
+        padding-left: 0px;
+        float: left;
+    }
+
+    .logo p {
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 65px;
+        padding-left: 12px;
+    }
+
+    .navbar_coca_cola {
+        background-color: #f75b5b00;
+        border-color: #00000000;
+        border-width: 0px;
+        border-top: 40px;
+        font-size: 18px;
+    }
+
+    /* CSS rule to style the footer */
+    .footer {
+        background-color: grey;
+        height: 75px;
+    }
+
+    .navbar-text > a {
+        font-size: 15px;
+    }
+
+    .navbar-text > p {
+        color: rgb(12, 5, 3);
+        font-size: 23px;
+    }
+
+    .copyright {
+        padding-top: 20px;
+    }
+
+    .social {
+        padding-top: 7px;
+    }
+
+    .model3D  {
+        height: 450px;
+        width: 60%
+    }
+}
